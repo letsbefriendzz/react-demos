@@ -1,0 +1,87 @@
+body {
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.box {
+  width: max-content;
+  background-color: #222;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 7px;
+}
+
+#header {
+  font-size: 64pt;
+  color: white;
+}
+
+#header :hover {
+  cursor: default;
+}
+
+#learnmore {
+  font-size: 48pt;
+  color: #999;
+}
+
+#learnmore :hover {
+  cursor: default;
+}
+
+#nav_bar {
+  position: fixed;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_el {
+  float: left;
+}
+
+.nav_el a {
+  border-radius: 15px;
+  display: block;
+  color: white;
+  float: left;
+  padding: 14px;
+  text-align: center;
+
+  width: 8vw;
+
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 16pt;
+}
+
+.nav_el a:hover {
+}
+
+#pl1 {
+  background-image: url("docs/parallax3.jpg");
+}
+
+#pl2 {
+  background-image: url("docs/parallax2.jpg");
+}
+
+.parallax_sec {
+  padding: 3vw;
+  /* Set a specific height */
+  min-height: 90vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sep {
+  height: 150px;
+  background-color: #333;
+}
